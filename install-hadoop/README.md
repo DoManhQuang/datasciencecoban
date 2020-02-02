@@ -7,12 +7,12 @@
     * [apache-hadoop-2.7.7](http://mirror.downloadvn.com/apache/hadoop/common/hadoop-2.7.7/hadoop-2.7.7.tar.gz)
     * [java-jdk8](https://download.oracle.com/otn/java/jdk/8u241-b07/1f5b5a70bf22433b84d0e960903adac8/jdk-8u241-linux-x64.tar.gz)
     
- * Bước 1: Giải nén hadoop & jdk8
+Bước 1: Giải nén hadoop & jdk8
  ```text
     tar -xvf hadoop-2.7.7.tar.gz
     tar -xvf jdk-8u241-linux-x64.tar.gz
 ``` 
-* Bước 2: Cấu hình file .bashrc trên cụm master-slave hadoop
+Bước 2: Cấu hình file .bashrc trên cụm master-slave hadoop
 ```text
     cd ~
     vi .bashrc
@@ -37,7 +37,7 @@
     java -version
     hadoop version
 ```
-* Bước 3: Tạo file master và chỉnh sửa file slave trên máy server master
+Bước 3: Tạo file master và chỉnh sửa file slave trên máy server master
 ```text
     cd hadoop-2.7.7/etc/hadoop/
     cp slaves masters
@@ -55,7 +55,7 @@ slave1
 slave2
 ------------------------------
 ``` 
-* Bước 4: Chỉnh sửa file slave trên máy server slave1&2
+Bước 4: Chỉnh sửa file slave trên máy server slave1&2
 ```text
     cd hadoop-2.7.7/etc/hadoop/
     vi slaves

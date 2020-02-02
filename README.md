@@ -1,8 +1,8 @@
 ## Bigdata Cơ Bản
 
 - Apache Hadoop
-    - [Install Hadoop]()
-    - [WordCount example](https://github.com/DoManhQuang/bigdatacoban/tree/master/wordcount)
+    - [Install Hadoop](https://domanhquang.github.io/bigdatacoban/install-hadoop/)
+    - [WordCount example](https://domanhquang.github.io/bigdatacoban/wordcount/)
 
 
 

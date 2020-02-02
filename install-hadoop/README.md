@@ -1,5 +1,5 @@
 ## Hướng dẫn cài đặt cụm master-slave hadoop
-
+Bạn có thể click vào các [title]() để download.
 * Chuẩn bị 
     * master: 192.168.10.100
     * slave1: 192.168.10.101

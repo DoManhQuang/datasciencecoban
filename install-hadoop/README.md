@@ -55,7 +55,7 @@ slave1
 slave2
 ------------------------------
 ``` 
-*Bước 4: Chỉnh sửa file slave trên máy server slave1&2
+* Bước 4: Chỉnh sửa file slave trên máy server slave1&2
 ```text
     cd hadoop-2.7.7/etc/hadoop/
     vi slaves
@@ -196,3 +196,7 @@ Bước 13: Xem kết quả giao diện hadoop
 ```text
     http://192.168.10.100:50070/
 ```
+![img2](https://domanhquang.github.io/bigdatacoban/install-hadoop/img/view-hadoop.png)
+
+![img1](https://domanhquang.github.io/bigdatacoban/install-hadoop/img/view-hadoop-datanode.png)
+

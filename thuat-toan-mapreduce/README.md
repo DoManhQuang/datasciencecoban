@@ -39,9 +39,27 @@ Nào chúng ta cùng đến với ví dụ kinh điển trong bài toán xử l�
 
 ![img6](https://domanhquang.github.io/bigdatacoban/thuat-toan-mapreduce/img/6.png)
 
+* Mã giải:
+```text
+function map(String input_key, String input_value):
+    // input_key: document name
+    // input_value: document contents
+    for each word w in input_value:
+      EmitIntermediate(w, "1");
+
+
+function reduce(String output_key, Iterator intermediate_values):
+    // output_key: a word
+    // output_values: a list of counts
+    int result = 0;
+    for each v in intermediate_values:
+      result += ParseInt(v);
+    Emit(AsString(result));
+```
+
 * Luồng xử lý:
 
-![img5](https://domanhquang.github.io/bigdatacoban/thuat-toan-mapreduce/img/55.png)
+![image7](https://domanhquang.github.io/bigdatacoban/thuat-toan-mapreduce/img/7.png)
 
 * Luồng xử lý song song:
 
@@ -51,5 +69,5 @@ Bạn có thể tham khảo [Hadoop WordCount Example](https://domanhquang.githu
 
 #### Tài liệu tham khảo
 * [wiki_mapreduce](https://en.wikipedia.org/wiki/MapReduce)
-* [MapReduce: Simplified Data Processing on Large Clusters by Jeff Dean, Sanjay Ghemawat Google, Inc.]()
+* [MapReduce: Simplified Data Processing on Large Clusters by Jeff Dean, Sanjay Ghemawat Google, Inc.](http://research.google.com/archive/mapreduce-osdi04-slides/index.html)
 * [Mapreduce Algorithms Optimizes the Potential of Big Data by Lalit Malik, Sunita Sangwan](https://github.com/DoManhQuang/ebook)

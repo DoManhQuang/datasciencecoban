@@ -40,6 +40,7 @@ Nào chúng ta cùng đến với ví dụ kinh điển trong bài toán xử l�
 ![img6](https://domanhquang.github.io/bigdatacoban/thuat-toan-mapreduce/img/6.png)
 
 * Mã giải:
+
 ```text
 function map(String input_key, String input_value):
     // input_key: document name

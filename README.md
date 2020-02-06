@@ -7,7 +7,7 @@ Bạn click vào [title]() để xem chi tiết nhé!
 - Apache Hadoop
     - [setup cluster Hadoop](https://domanhquang.github.io/bigdatacoban/install-hadoop/)
     - [Ví dụ WordCount](https://domanhquang.github.io/bigdatacoban/wordcount/)
-    - [Thuật toán MapReduce]()
+    - [Thuật toán MapReduce](https://domanhquang.github.io/bigdatacoban/thuat-toan-mapreduce/)
 * Apache Spark & Scala
     * [setup spark&scala](https://domanhquang.github.io/bigdatacoban/install-spark-scala/)
 

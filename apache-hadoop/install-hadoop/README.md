@@ -196,7 +196,7 @@ Bước 13: Xem kết quả giao diện hadoop
 ```text
     http://192.168.10.100:50070/
 ```
-![img2](https://domanhquang.github.io/bigdatacoban/install-hadoop/img/view-hadoop.png)
+![img2](https://domanhquang.github.io/bigdatacoban/image/img-install-hadoop/view-hadoop.png)
 
-![img1](https://domanhquang.github.io/bigdatacoban/install-hadoop/img/view-hadoop-datanode.png)
+![img1](https://domanhquang.github.io/bigdatacoban/image/img-install-hadoop/view-hadoop-datanode.png)
 

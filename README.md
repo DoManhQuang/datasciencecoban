@@ -5,11 +5,11 @@ Bạn click vào [title]() để xem chi tiết nhé!
     - [Khái niệm]()
     - [Thuật toán Raft Consensus]()
 - Apache Hadoop
-    - [setup cluster Hadoop](https://domanhquang.github.io/bigdatacoban/install-hadoop/)
-    - [Ví dụ WordCount](https://domanhquang.github.io/bigdatacoban/wordcount/)
-    - [Thuật toán MapReduce](https://domanhquang.github.io/bigdatacoban/thuat-toan-mapreduce/)
+    - [setup cluster Hadoop](https://domanhquang.github.io/bigdatacoban/apache-hadoop/install-hadoop)
+    - [Ví dụ WordCount](https://domanhquang.github.io/bigdatacoban/apache-hadoop/wordcount/)
+    - [Thuật toán MapReduce](https://domanhquang.github.io/bigdatacoban/apache-hadoop/thuat-toan-mapreduce/)
 * Apache Spark & Scala
-    * [setup spark&scala](https://domanhquang.github.io/bigdatacoban/install-spark-scala/)
+    * [setup spark&scala](https://domanhquang.github.io/bigdatacoban/apache-spark/install-spark-scala/)
 
 
 

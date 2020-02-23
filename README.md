@@ -2,7 +2,7 @@
 
 Bạn click vào [title]() để xem chi tiết nhé!
 - Hệ thống phân tán tập tin (DFS)
-    - [Khái niệm]() loading...
+    - [Khái niệm DFS](https://domanhquang.github.io/bigdatacoban/DFS/khai-niem/)
     - [Thuật toán Raft Consensus](https://domanhquang.github.io/bigdatacoban/DFS/thuat-toan-raft/)
 - Apache Hadoop
     - [Cài đặt cluster Hadoop](https://domanhquang.github.io/bigdatacoban/apache-hadoop/install-hadoop)

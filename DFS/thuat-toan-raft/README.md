@@ -138,3 +138,10 @@ Sơ đồ thuật toán :
 * <i>ElectionTimeout</i> giống như được mô tả trong phần Bầu cử Lãnh đạo. Đó là điều bạn phải chọn.
 
 Số điển hình cho các giá trị này có thể là 0,5ms đến 20ms cho <b>BroadcastTime</b>, điều này ngụ ý rằng bạn đặt thời gian bầu cử ở đâu đó trong khoảng từ 10ms đến 500ms. Có thể mất vài tuần hoặc vài tháng giữa các lần hỏng máy chủ, điều đó có nghĩa là các giá trị đều ổn để một cụm ổn định hoạt động.
+
+#### Tài liệu tham khảo
+[Raft Consensus Algorithm](https://www.geeksforgeeks.org/raft-consensus-algorithm/)
+
+[raft-paper](https://raft.github.io/raft.pdf)
+
+[Dự án về raft](https://raft.github.io/)

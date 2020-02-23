@@ -3,7 +3,7 @@
 Bạn click vào [title]() để xem chi tiết nhé!
 - Hệ thống phân tán tập tin (DFS)
     - [Khái niệm]() loading...
-    - [Thuật toán Raft Consensus]() loading...
+    - [Thuật toán Raft Consensus](https://domanhquang.github.io/bigdatacoban/DFS/thuat-toan-raft/)
 - Apache Hadoop
     - [Cài đặt cluster Hadoop](https://domanhquang.github.io/bigdatacoban/apache-hadoop/install-hadoop)
     - [Ví dụ WordCount](https://domanhquang.github.io/bigdatacoban/apache-hadoop/wordcount/)

@@ -14,6 +14,6 @@ Bạn click vào [title]() để xem chi tiết nhé!
 * Apache Spark & Scala
     * [Cài đặt spark&scala](https://domanhquang.github.io/bigdatacoban/apache-spark/install-spark-scala/)
     
-![img0](https://domanhquang.github.io/bigdatacoban/image/me/me1.JPG)
+![img1](https://domanhquang.github.io/bigdatacoban/image/me/me1.JPG)
 
 Follow me [github](https://github.com/DoManhQuang) and [facebook](https://www.facebook.com/manhquang.rnd)

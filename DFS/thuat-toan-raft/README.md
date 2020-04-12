@@ -12,7 +12,7 @@ Thuật toán Raft Cosensus được phát triển bởi Diego dự trên Thuậ
 #### Vấn đề bầu cử (lựa chọn) Leader server
 Sẽ chả có vấn đề gì nếu như chúng ta sử dụng hệ thống Client - Server. Khi đó chỉ có 01 server chịu trách nhiệm tương tác với client.
 
-![img0](https://domanhquang.github.io/bigdatacoban//image/raft/1.PNG)
+![img0](https://domanhquang.github.io/bigdatacoban/image/raft/1.PNG)
 
 Vấn đề chỉ xảy ra khi chúng ta sử dụng 01 cụm server.
 

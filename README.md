@@ -1,19 +1,16 @@
-## Data Science Cơ Bản
+# Data Science Cơ Bản
 
 Bạn click vào [title]() để xem chi tiết nhé!
-- Hệ thống phân tán tập tin (DFS)
-    - [Khái niệm DFS](https://domanhquang.github.io/bigdatacoban/DFS/khai-niem/)
-    - [Thuật toán Raft Consensus](https://domanhquang.github.io/bigdatacoban/DFS/thuat-toan-raft/)
-- Apache Hadoop
-    - [Cài đặt cluster Hadoop](https://domanhquang.github.io/bigdatacoban/apache-hadoop/install-hadoop)
-    - [Ví dụ WordCount](https://domanhquang.github.io/bigdatacoban/apache-hadoop/wordcount/)
-    - [Thuật toán MapReduce](https://domanhquang.github.io/bigdatacoban/apache-hadoop/thuat-toan-mapreduce/)
-	- [Cài đặt Apache Hive&Sqoop](https://domanhquang.github.io/bigdatacoban/apache-hadoop/install-apache-hive-sqoop/)
-	* Truy vấn SQL trên Apache Hive :
-        * [Bài 1 : Truy vấn cơ bản](https://domanhquang.github.io/bigdatacoban/apache-hadoop/truy-van-sql-hive/bai1/)
-* Apache Spark & Scala
-    * [Cài đặt spark&scala](https://domanhquang.github.io/bigdatacoban/apache-spark/install-spark-scala/)
-    
-![img1](https://domanhquang.github.io/bigdatacoban/image/me/me1.JPG)
+
+## Lý thuyết
+- Day 1: [Hệ thống tập tin phân tán (DFS)](https://domanhquang.github.io/datasciencecoban/DFS/khai-niem/)
+- Day 2: [Thuật toán Raft Consensus](https://domanhquang.github.io/datasciencecoban/DFS/thuat-toan-raft/)
+- Day 3: [Thuật toán MapReduce](https://domanhquang.github.io/datasciencecoban/apache-hadoop/thuat-toan-mapreduce/)
+- Day 4: [Bài toán Word Count trong Hadoop](https://domanhquang.github.io/datasciencecoban/apache-hadoop/wordcount/)
+
+## Cấu hình
+- Day 1: [Cài đặt Apache Hive & Sqoop](https://domanhquang.github.io/datasciencecoban/apache-hadoop/install-apache-hive-sqoop/)
+- Day 2: [Cài đặt Hadoop Cluster](https://domanhquang.github.io/datasciencecoban/apache-hadoop/install-hadoop)
+- Day 3: [Cài đặt Spark & Scala](https://domanhquang.github.io/datasciencecoban/apache-spark/install-spark-scala/)    
 
 Follow me [github](https://github.com/DoManhQuang) and [facebook](https://www.facebook.com/manhquang.rnd)

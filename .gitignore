@@ -2,5 +2,5 @@
 target/
 *.iml
 *.yml
-source/.idea/
-source/venv/
+source/algorithms/.idea/
+source/algorithms/venv/

@@ -1,4 +1,4 @@
-## Bigdata Cơ Bản
+## Data Science Cơ Bản
 
 Bạn click vào [title]() để xem chi tiết nhé!
 - Hệ thống phân tán tập tin (DFS)

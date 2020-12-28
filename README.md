@@ -6,7 +6,7 @@ Bạn click vào [title]() để xem chi tiết nhé!
 - Day 1: [Hệ thống tập tin phân tán (DFS)](https://domanhquang.github.io/datasciencecoban/DFS/khai-niem/)
 - Day 2: [Thuật toán Raft Consensus](https://domanhquang.github.io/datasciencecoban/DFS/thuat-toan-raft/)
 - Day 3: [Thuật toán MapReduce](https://domanhquang.github.io/datasciencecoban/apache-hadoop/thuat-toan-mapreduce/)
-- Day 4: [Bài toán Word Count trong Hadoop](https://domanhquang.github.io/datasciencecoban/apache-hadoop/wordcount/)
+- Day 4: [Bài toán word count trong Hadoop](https://domanhquang.github.io/datasciencecoban/apache-hadoop/wordcount/)
 
 ## Cấu hình
 - Day 1: [Cài đặt Apache Hive & Sqoop](https://domanhquang.github.io/datasciencecoban/apache-hadoop/install-apache-hive-sqoop/)

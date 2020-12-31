@@ -12,7 +12,7 @@ Thuật toán Raft Cosensus được phát triển bởi Diego dự trên Thuậ
 #### Vấn đề bầu cử (lựa chọn) Leader server
 Sẽ chả có vấn đề gì nếu như chúng ta sử dụng hệ thống Client - Server. Khi đó chỉ có 01 server chịu trách nhiệm tương tác với client.
 
-![img0](https://domanhquang.github.io/bigdatacoban/image/raft/1.PNG)
+![img0](https://domanhquang.github.io/datasciencecoban/image/img-raft/1.PNG)
 
 Vấn đề chỉ xảy ra khi chúng ta sử dụng 01 cụm server.
 
@@ -30,7 +30,7 @@ Có một số ý tưởng khá hay về hệ thống có nhiều máy chủ sau
 
 Ở bài viết này chúng ta sẽ cùng tìm hiểu về <b>Hệ thống không đối xứng (Asymmetric)</b>. Vì giải pháp này được khá nhiều các hệ thống lựa chọn.
 
-![img1](https://domanhquang.github.io/bigdatacoban/image/raft/2.PNG)
+![img1](https://domanhquang.github.io/datasciencecoban/image/img-raft/2.PNG)
 
 Một số thuật ngữ trong Hệ thống không đối xứng (Asymmetric) :
 
@@ -40,7 +40,7 @@ Một số thuật ngữ trong Hệ thống không đối xứng (Asymmetric) :
 
 * <b>Candidate(ứng viên)</b> : Trong khoảng thời gian lựa chọn máy leader server thì các server sẽ yêu cầu các server khác lựa chọn. Khi đó server được gọi là Candidate. Ở thời điểm đầu tiên tất cả các server đều là Candidate.
 
-![img2](https://domanhquang.github.io/bigdatacoban/image/raft/3.PNG)
+![img2](https://domanhquang.github.io/datasciencecoban/image/img-raft/3.PNG)
 
 <i>Hệ thống này sẽ tuân theo định lý CAP (CAP theorem) :</i>
 
@@ -55,7 +55,7 @@ Raft là một thuật toán đồng thuận được thiết kế để dễ hi
 
 #### Quy trình lựa chọn leader server (Sơ đồ thuật toán)
 
-![img3](https://domanhquang.github.io/bigdatacoban/image/raft/4.PNG)
+![img3](https://domanhquang.github.io/datasciencecoban/image/img-raft/4.PNG)
 
 <b>Term number</b> là thời gian duy trì để truyền tải các thông tin giữa các server nodes. Trong khoảng thời gian đó các server sẽ vote ra leader server thông qua các đường truyền tin. Mỗi server chỉ được vote 1 lần trong thời gian bỏ phiếu. Nếu xảy ra tình huống có 2 server cùng số lượng vote thì nhiệm kỳ sẽ được gọi là split vote (Bỏ phiếu chia). Nhiệm kỳ sẽ kết thúc mà không có leader server nào được tạo. Và sẽ chạy lại nhiệm kỳ. Vì thế mỗi nhiệm kỳ chỉ có nhiều mất 01 leader server.
  
@@ -84,14 +84,14 @@ Mục đích sử dụng <b>Term number</b> :
 
 * Candidate gửi request đến các Cadidate node khác trong cụm mà AppendEntries bị từ chối thì các Cadidate được giữ nguyên trạng thái. Tạo lại cuộc bầu cử.
 
-![img4](https://domanhquang.github.io/bigdatacoban/image/raft/5.PNG)
+![img4](https://domanhquang.github.io/datasciencecoban/image/img-raft/5.PNG)
 
 #### Vấn đề sao lưu dữ liệu giữa các server
 
 <b>Log replication (bản sao nhật ký)</b> : Khi leader server tương tác với client thì sẽ lưu lại dữ liệu gửi đi vào 1 thư mục mới và sử dụng AppendEmtries song song được kết nối với các máy chủ khác để sao lưu một cách an toàn. 
 Việc bảo đảm log được lưu đúng chỉ mục trên tất cả các server node là điều tương đối khó khăn . Nếu như máy leader gặp sự cố có thể các nhật ký sẽ trở nên không được nhất quán chính vì vậy raft phát triển thuật toán lưu trữ dựa trên các server với nhau.
 
-![img5](https://domanhquang.github.io/bigdatacoban/image/raft/6.PNG)
+![img5](https://domanhquang.github.io/datasciencecoban/image/img-raft/6.PNG)
 
 Giải thích quá trình sao lưu:
 
@@ -107,7 +107,7 @@ Giải thích quá trình sao lưu:
 
 Sơ đồ thuật toán :
 
-![img6](https://domanhquang.github.io/bigdatacoban/image/raft/7.PNG)
+![img6](https://domanhquang.github.io/datasciencecoban/image/img-raft/7.PNG)
 
 <i>Các quy tắc về an toàn trong giao thức Raft</i> đảm bảo sự an toàn sau đây chống lại sự cố đồng thuận nhờ thiết kế của nó:
 

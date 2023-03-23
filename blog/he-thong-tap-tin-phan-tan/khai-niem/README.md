@@ -9,4 +9,4 @@ Cung cấp 3 giải pháp :
 
 * <b>Data distribution</b> : kết hợp DFS Namespace và DFS Replication cho các thư mục như Software, Trainning, Document, Project. Người dùng sẽ dễ dàng truy cập và tăng độ sẵn sàng khi có sự cố xảy ra (nhờ vào tính năng DFS Replication), khi người dùng không truy cập được tới DFS Server trong Site của họ, thì hệ thống sẽ tự redirect người dùng qua DFS Server của Site khác. Dữ liệu vẫn đầy đủ.
 
-![img0](https://domanhquang.github.io/bigdatacoban/image/raft/dfs.png)
+![img0](https://domanhquang.github.io/bigdatacoban/image/img-raft/dfs.png)

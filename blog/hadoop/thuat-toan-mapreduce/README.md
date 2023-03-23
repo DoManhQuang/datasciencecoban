@@ -20,13 +20,13 @@ Hi, các bạn! hôm nay chúng ta sẽ cùng tìm hiểu về thuật toán Map
         * Kết hợp tất cả các giá trị trung gian cho một <b>key<b> cụ thể.
         * Tạo ra một tập hợp các key<sub>o</sub> / value<sub>o</sub> được hợp nhất (thường chỉ là một)
 
-![img4](https://domanhquang.github.io/bigdatacoban/image/img-mapreduce/44.png)
+![img4](https://domanhquang.github.io/datasciencecoban/image/img-mapreduce/44.png)
 * Hệ thống MapReduce (MapReduce System):
     * ```Map```: Mỗi node(máy tính) worker áp dụng hàm ```Map()``` cho dữ liệu cục bộ và ghi đầu ra vào bộ lưu trữ tạm thời. Node master đảm bảo rằng chỉ một bản sao của dữ liệu <b>input</b> được xử lý.
     * ```Shuffle``` : các node worker phân phối lại dữ liệu dựa trên các <b>key output</b> (được tạo bởi hàm ```Map()```), sao cho tất cả dữ liệu thuộc về một <b>key</b> được đặt trên cùng một node worker.
     * ```Reduce``` : các node worker thực hiện xử lý song song từng nhóm dữ liệu <b>output</b> trên mỗi <b>key</b>.
 
-![img1](https://domanhquang.github.io/bigdatacoban/image/img-mapreduce/11.png)
+![img1](https://domanhquang.github.io/datasciencecoban/image/img-mapreduce/11.png)
 #### Ví dụ kinh điển
 Nào chúng ta cùng đến với ví dụ kinh điển trong bài toán xử lý phân tán, song song đó là <b>WordCount</b>.
 
@@ -37,7 +37,7 @@ Nào chúng ta cùng đến với ví dụ kinh điển trong bài toán xử l�
 
 * Tổng quan :
 
-![img6](https://domanhquang.github.io/bigdatacoban/image/img-mapreduce/6.png)
+![img6](https://domanhquang.github.io/datasciencecoban/image/img-mapreduce/6.png)
 
 * Mã giải:
 
@@ -60,13 +60,13 @@ function reduce(String output_key, Iterator intermediate_values):
 
 * Luồng xử lý:
 
-![image7](https://domanhquang.github.io/bigdatacoban/image/img-mapreduce/7.png)
+![image7](https://domanhquang.github.io/datasciencecoban/image/img-mapreduce/7.png)
 
 * Luồng xử lý song song:
 
-![img3](https://domanhquang.github.io/bigdatacoban/image/img-mapreduce/33.png)
+![img3](https://domanhquang.github.io/datasciencecoban/image/img-mapreduce/33.png)
 
-Bạn có thể tham khảo [Hadoop WordCount Example](https://domanhquang.github.io/bigdatacoban/apache-hadoop/wordcount/)!
+Bạn có thể tham khảo [Hadoop WordCount Example](https://domanhquang.github.io/datasciencecoban/source/word-count)
 
 #### Tài liệu tham khảo
 * [wiki_mapreduce](https://en.wikipedia.org/wiki/MapReduce)
